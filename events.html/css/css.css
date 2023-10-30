@@ -30,7 +30,7 @@ h2 {
 }
 h3{
   font-size: 32px;
-  margin-left: 13px;
+  margin-left: 16px;
 }
 header {
   background-color: #FFFFFF;
@@ -49,7 +49,115 @@ article {
 
 }
 hr {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 45px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: -0px;
+}
+
+.eventtitle {
+  border: white 1px solid;
+
+}
+
+.eventdate {
+  border: white 1px solid;
+  text-align: right;
+  margin-right: 16px;
+  font-size: 24px;
+}
+
+.eventnameanddate {
+  border: white 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.people {
+  font-size: 32px;
+}
+
+.peopleimage {
+  position: relative;
+  bottom: -7px;
+}
+
+.cost {
+  font-size: 20px;
+ position: relative;
+  bottom: -12px;
+}
+
+
+.costandpeople {
+  border: rgb(255, 255, 255) 1px solid;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: -5px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  
+
+}
+
+.learnmore {
+  font-size: 24px;
+  color: #D55E2D;
+  position: relative;
+  bottom: -8px;
+}
+
+.join {font-size: 24px;
+  color: #ffffff;
+  background-color: #D55E2D;
+  width: 125px;
+  height: 45px;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;  
+}
+.emptycheckmark {
+  position: relative;
+  bottom: -7px;
+}
+
+.learnmoreandjoin {
+  border: rgb(255, 255, 255) 1px solid;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: -45px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.months {
+  margin-bottom: 0px;
+  margin-top: 80px;
+  padding-left: 50px;
+  font-size: 24px;
+  color: #D55E2D;
+  
+}
+
+.arrow {
+  position: relative;
+  bottom: -7px;
+  right: 15px;
+}
+
+.otherarrow {
+  transform: rotate(180deg);
+  position: relative;
+  bottom: -7px;
+  left: 15px;
+  
+
+}
+.months {
+  border: rgb(0, 0, 0) 1px solid;
+  line-height: 40px;
+  height: 40px;
+  text-align: left;
+  
 }
