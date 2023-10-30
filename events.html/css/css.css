@@ -18,15 +18,19 @@
    background-color: var(--backgr);
  }
  body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "basic-sans", sans-serif;
   background-color: #F0F2EF;
   
   
  }
 h2 {
-  font-size: 32px;
+  font-size: 36px;
   padding-left: 56px;
   padding-right: 56px;
+}
+h3{
+  font-size: 32px;
+  margin-left: 13px;
 }
 header {
   background-color: #FFFFFF;
@@ -34,4 +38,18 @@ header {
   justify-content: space-between;
   height: 65px; 
   line-height: 65px;
+}
+article {
+  height: 475px;
+  width: 391px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  margin: 22px;
+  float: left;
+
+}
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 45px;
 }
