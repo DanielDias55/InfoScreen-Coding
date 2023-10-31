@@ -1,0 +1,63 @@
+header {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    height: 65px; 
+    line-height: 65px;
+  }
+
+  body{
+  background-color: #F0F2EF;
+  }
+
+  #map{ 
+    transform: translateY(+5%);
+    display: flex;
+    float: left;
+    position: relative;
+    margin-right: 77px; 
+  }
+
+/* This is for our list of services*/
+  #facilities{  
+    display: flex;
+    flex-direction: column;
+    float: left;  
+  }
+
+/* This section homes the actual 'strip card' of services */
+  .services{
+    width: 600px;
+    height: 175px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+
+  .serviceImage{
+    height: 175px;
+    width: 30%;
+    float: left;
+  }
+
+/* place of the find and book buttons */
+  .find,.book{
+    display: flex;
+    float: right;
+    position: absolute; 
+    margin-right: 2ch; 
+    transform: translateX(+1150%);
+  }
+
+/*  this was a test before I made the above admentments
+
+    .find{
+    display: flex;
+    position: relative;
+    float:left; 
+    margin-right: 2ch;
+  }
+  .book{
+    display: flex;
+    position: relative;
+  } */
+
