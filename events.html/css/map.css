@@ -18,6 +18,10 @@ header {
     margin-right: 77px; 
   }
 
+  svg path:hover{
+    fill:blue;
+  }
+
 /* This is for our list of services*/
   #facilities{  
     display: flex;
