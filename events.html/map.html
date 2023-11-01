@@ -139,76 +139,82 @@
     <!-- END OF MAP SVG FILE    -->
 
 
+    <!-- buttonContainer is to style and format the two buttons so they are in the same place-->
     <h1>Find our services</h1>
     <div id="facilities">
         <article class="services">
             <img class="serviceImage" src="images/image 2.png" alt="">
             <h3>Music Room</h3>
             <p class="serviceDesc">Let your soul resonate in our music room, where melodies transform moments into unforgettable memories.</p>
-            <button id="highlightButton">Find</button>
-            <button class="book">Book</button>
-        </article>
+            <div class="buttonContainer">
+                <button id="highlightButton">Find</button>
+                <button class="book">Book</button>
+            </button>
+            </article>
 
         <article class="services">
             <img class="serviceImage" src="images/image 4.png" alt="  ">
             <h3>Sauna</h3>
             <p> A sauna is typically a room heated to between 70 to 100 celsius or 158 to 212 Fahrenheit.</p>
-            <button class="find">Find</button>
-            <button class="book">Book</button>
+            <div class="buttonContainer">
+                <button class="find">Find</button>
+                <button class="book">Book</button>
+            </button>
         </article>
 
         <article class="services">
             <img class="serviceImage" src="images/image 3.png" alt="">
             <h2>Caretaker</h2>
             <p> Your needs, our priority - visit the caretaker's office for assistance, support and a warm welcome to your new home.</p>
-            <button class="find">Find</button>
-            <button class="book">Book</button>
+            <div class="buttonContainer">
+                <button class="find">Find</button>
+                <button class="book">Book</button>
+            </button>
         </article>
 
         <article class="services">
             <img class="serviceImage" src="images/image 2.png" alt="">
             <h3>Laundry</h3>
             <p> Conveniece at your doorstep - our on-site laundry facilities make your clothes fresh and clean a breeze.</p>
-            <button class="find">Find</button>
-            <button class="book">Book</button>
+            <div class="buttonContainer">
+                <button class="find">Find</button>
+                <button class="book">Book</button>
+            </button>
         </article>
 
         <article class="services">
             <img class="serviceImage" src="images/image 2.png" alt="">
             <h3>Bar</h3>
             <p> Indulge in refined libations and spirited camaraderie at our sophisticated bar, where every sip is a celebration</p>
-            <button class="find">Find</button>
-            <button class="book">Book</button>
+            <div class="buttonContainer">
+                <button class="find">Find</button>
+                <button class="book">Book</button>
+            </button>
         </article>
 
         <article class="services">
             <img class="serviceImage" src="images/image 3.png" alt="">
             <h3>Gym</h3>
             <p> Elevate your fotmess journey in our modern gym, where your wellness goals become reality, one workout at a time.</p>
-            <button class="find">Find</button>
-            <button class="book">Book</button>
+            <div class="buttonContainer">
+                <button class="find">Find</button>
+                <button class="book">Book</button>
+            </button>
         </article>
 
         <article class="services">
             <img class="serviceImage" src="images/image 4.png" alt="">
             <h3>Board Games</h3>
             <p> Discover the joy of camaraderie and competition as you delve into a world of strategy, wit and laughter with our collection of captivating board games.</p>
-            <button class="find">Find</button>
-            <button class="book">Book</button>
+            <div class="buttonContainer">
+                <button class="find">Find</button>
+                <button class="book">Book</button>
+            </button>
         </article>
     </div>
 
     </div>
 
-    <script>
-
-  document.getElementById("highlightButton").addEventListener("click", function () {
-  // Get the path element you want to highlight by its id
-  const pathToHighlight = document.getElementById("path1"); // Change "path1" to the desired path's id
-
-  // Toggle the "highlighted" class on the path element
-  pathToHighlight.classList.toggle("highlighted");
-});
-      </script>
+    <script src="js/js.js"></script>
 </body>
 </html>
