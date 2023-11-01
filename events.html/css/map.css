@@ -1,9 +1,14 @@
+
 header {
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    height: 65px; 
-    line-height: 65px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  height: 65px; 
+  line-height: 65px;
+}
+  html, body{
+    margin: 0;
+    height: 100%;
   }
 
   body{
@@ -26,7 +31,10 @@ header {
   #facilities{  
     display: flex;
     flex-direction: column;
-    float: left;  
+    float: left;
+    position: relative;
+    overflow-y: scroll;
+    max-height: calc(100% - 18%);
   }
 
 /* This section homes the actual 'strip card' of services */
@@ -47,9 +55,8 @@ header {
   .find,.book{
     display: flex;
     float: right;
-    position: absolute; 
+    position:relative; 
     margin-right: 2ch; 
-    transform: translateX(+1150%);
   }
 
 /*  this was a test before I made the above admentments
