@@ -1,9 +1,14 @@
+
 header {
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    height: 65px; 
-    line-height: 65px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  height: 65px; 
+  line-height: 65px;
+}
+  html, body{
+    margin: 0;
+    height: 100%;
   }
 
   body{
@@ -15,7 +20,9 @@ header {
     display: flex;
     float: left;
     position: relative;
-    margin-right: 77px; 
+    margin-right: 38.5px;
+    margin-left: 38.5px;
+    margin-top: 38.5px;
   }
 
   svg path:hover{
@@ -26,7 +33,10 @@ header {
   #facilities{  
     display: flex;
     flex-direction: column;
-    float: left;  
+    float: left;
+    position: relative;
+    overflow-y: scroll;
+    max-height: calc(100% - 22%);
   }
 
 /* This section homes the actual 'strip card' of services */
@@ -43,15 +53,32 @@ header {
     float: left;
   }
 
-/* place of the find and book buttons */
+/* place of the find and book buttons 
   .find,.book{
     display: flex;
     float: right;
-    position: absolute; 
+    position:relative; 
     margin-right: 2ch; 
-    transform: translateX(+1150%);
+  } 
+  */
+
+  .buttonContainer{
+    display: flex;
+    float: right;
+    position:relative; 
+    margin-right: 2ch; 
+  } 
+
+  .highlighted {
+    stroke: red;
+    stroke-width: 6;
+    fill: yellow;
   }
 
+  a:hover, a:active, a:visited,a:focus {
+  color: green;
+  text-decoration: none;
+  }
 /*  this was a test before I made the above admentments
 
     .find{
