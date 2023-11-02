@@ -22,7 +22,7 @@ header {
     position: relative;
     margin-right: 38.5px;
     margin-left: 38.5px;
-    margin-top: 38.5px;
+    margin-top: 44px;
   }
 
   svg path:hover{
@@ -45,6 +45,7 @@ header {
     height: 175px;
     background-color: #FFFFFF;
     margin-bottom: 20px;
+    position: relative;
   }
 
   .serviceImage{
@@ -65,9 +66,15 @@ header {
   .buttonContainer{
     display: flex;
     float: right;
-    position:relative; 
+    position:absolute; 
     margin-right: 2ch; 
+    bottom:0;
+    right:0;
   } 
+
+  .buttonContainer button {
+    margin-left: 10px; /* space between the buttons */
+  }
 
   .highlighted {
     stroke: red;
@@ -75,7 +82,7 @@ header {
     fill: yellow;
   }
 
-  a:hover, a:active, a:visited,a:focus {
+  a, a:hover, a:active, a:visited,a:focus {
   color: green;
   text-decoration: none;
   }
