@@ -47,7 +47,7 @@
     float: left;
   }
 
-/* place of the find and book buttons 
+/* place of the find and book buttons - I am using the button container class atm, this should be redundant and will delete.
   .find,.book{
     display: flex;
     float: right;
@@ -64,6 +64,18 @@
     bottom:0;
     right:0;
   } 
+
+  .findMusic {
+    font-size: 24px;
+    color: #D55E2D;
+    background-color: #ffffff;
+    width: 125px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    border: 2px solid #D55E2D;}
 
   .buttonContainer button {
     margin-left: 10px; /* space between the buttons */
