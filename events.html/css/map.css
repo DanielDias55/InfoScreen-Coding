@@ -1,11 +1,4 @@
 
-header {
-  background-color: #FFFFFF;
-  display: flex;
-  justify-content: space-between;
-  height: 65px; 
-  line-height: 65px;
-}
   html, body{
     margin: 0;
     height: 100%;
@@ -82,10 +75,6 @@ header {
     fill: yellow;
   }
 
-  a, a:hover, a:active, a:visited,a:focus {
-  color: green;
-  text-decoration: none;
-  }
 /*  this was a test before I made the above admentments
 
     .find{

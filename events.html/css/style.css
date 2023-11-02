@@ -1,0 +1,35 @@
+body {
+    font-family: "basic-sans", sans-serif;
+    background-color: #F0F2EF;
+   }
+  
+  h2 {
+    font-size: 36px;
+    padding-left: 56px;
+    padding-right: 56px;    
+  }
+  h3{
+    font-size: 32px;
+    margin-left: 16px;
+  }
+  header {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    height: 65px; 
+    line-height: 65px;
+  }
+
+  header h2 {
+    font-size: 36px;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    padding-left: 56px;
+    padding-right: 56px;
+}
+
+  /* This makes the text on our header stay constant, no visted state or text decoration */
+  a, a:hover, a:active, a:visited,a:focus {
+    color: black;
+    text-decoration: none;
+  }

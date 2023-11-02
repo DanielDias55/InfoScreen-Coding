@@ -132,6 +132,7 @@ function myFunction4(){
 
 
 
+// THIS IS FOR THE JS ON THE MAP PAGE
 
 document.getElementById("highlightButton").addEventListener("click", function () {
     //  path element  to highlight by its id
@@ -139,5 +140,9 @@ document.getElementById("highlightButton").addEventListener("click", function ()
   
     // Toggle the "highlighted" class on the path element
     pathToHighlight.classList.toggle("highlighted");
+
+    setTimeout(function () {
+        pathToHighlight.classList.remove("highlighted");
+      }, 10000);
   });
 
