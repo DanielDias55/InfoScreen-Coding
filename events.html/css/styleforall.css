@@ -1,0 +1,34 @@
+:root {
+    --contrast: lime;
+    --backgr: #000;
+ }
+
+ header {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    height: 65px; 
+    line-height: 65px;
+  }
+
+ /* Define a common class for global styles */
+ body {
+    font-family: "basic-sans", sans-serif;
+    background-color: #F0F2EF;
+    color: var(--contrast);
+ }
+
+h2 {
+   font-size: 360px;
+   color: yellowx;
+   padding-left: 56px;
+   padding-right: 56px;
+ }
+ 
+ h3 {
+   font-size: 32px;
+   margin-left: 16px;
+ }
+ 
+
+ 
