@@ -28,8 +28,14 @@
     flex-direction: column;
     float: left;
     position: relative;
-    overflow-y: scroll;
-    max-height: calc(100% - 22%);
+    overflow: scroll;
+    max-height: 600px;
+  }
+
+  #facilitiesContent {
+    overflow-y: auto; /* Enable vertical scrolling for the content */
+    height: 100%; 
+    scroll-behavior: smooth;
   }
 
 /* This section homes the actual 'strip card' of services */

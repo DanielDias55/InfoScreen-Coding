@@ -1,13 +1,11 @@
-// THIS IS FOR THE JS ON THE MAP PAGE
-
-document.getElementById(".findMusic").addEventListener("click", function () {
-    //  path element  to highlight by its id
-    const pathToHighlight = document.getElementById("path1"); // this is where the section I want highlighting
+document.querySelector(".findMusic").addEventListener("click", function () {
+    const pathToHighlight = document.getElementById("path1"); // Change "path1" to the desired path's id
   
-    // Toggle the "highlighted" class on the path element
-    pathToHighlight.classList.toggle("highlighted");
-
-    setTimeout(function () {
+    if (pathToHighlight) {
+      if (pathToHighlight.classList.contains("highlighted")) {
         pathToHighlight.classList.remove("highlighted");
-      }, 10000);
+      } else {
+        pathToHighlight.classList.add("highlighted");
+      }
+    }
   });
