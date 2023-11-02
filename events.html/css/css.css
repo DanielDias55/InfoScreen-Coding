@@ -103,9 +103,6 @@ hr {
   bottom: -5px;
   padding-left: 16px;
   padding-right: 16px;
-
-  
-
 }
 
 .learnmore {
@@ -115,22 +112,67 @@ hr {
   bottom: -8px;
 }
 
-.join {font-size: 24px;
+#join {font-size: 24px;
   color: #ffffff;
   background-color: #D55E2D;
   width: 125px;
   height: 45px;
+  line-height: 45px;
   border-radius: 5px;
   text-align: center;
-  position: relative;  
+  position: relative;
+  border: 0px solid black;}
+
+#join2 {font-size: 24px;
+  color: #ffffff;
+  background-color: #D55E2D;
+  width: 125px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  border: 0px solid black;}
+
+#join3 {font-size: 24px;
+  color: #ffffff;
+  background-color: #D55E2D;
+  width: 125px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  border: 0px solid black;
 }
+
+#join4 {
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #D55E2D;
+  width: 125px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  border: 0px solid black;
+}
+
+
+
 .emptycheckmark {
   position: relative;
   bottom: -7px;
 }
 
+.fullcheckmark {
+  position: relative;
+  bottom: -7px;
+}
+
 .learnmoreandjoin {
-  border: rgb(255, 255, 255) 1px solid;
+  /*border: rgb(255, 255, 255) 1px solid;*/
   display: flex;
   justify-content: space-between;
   position: relative;
