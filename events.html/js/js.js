@@ -73,13 +73,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const join = document.getElementById("join4");
     
     //Initial value
-    let number = 69;
+    let number = 21;
     //Update the number display
     attendancecount4.textContent = number;
     //Add a click event listener to the button 
     join.addEventListener("click", function() {
         //Toggle the number between 69 and 70
-        number = number === 69 ? 70 : 69;
+        number = number === 21 ? 22 : 21;
         //Update the number display
         attendancecount4.textContent = number;
     });
