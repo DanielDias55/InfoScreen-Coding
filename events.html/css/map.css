@@ -2,6 +2,7 @@
   html, body{
     margin: 0;
     height: 100%;
+    overflow: hidden;
   }
 
   body{
@@ -9,13 +10,12 @@
   }
 
   #map{ 
-    transform: translateY(+5%);
     display: flex;
     float: left;
     position: relative;
     margin-right: 38.5px;
     margin-left: 38.5px;
-    margin-top: 44px;
+    margin-top: 20px;
   }
 
   svg path:hover{
@@ -29,7 +29,7 @@
     float: left;
     position: relative;
     overflow: scroll;
-    max-height: 600px;
+    max-height: 665px;
   }
 
   #facilitiesContent {
@@ -38,6 +38,11 @@
     scroll-behavior: smooth;
   }
 
+  h1{
+    font-size: 50px;
+    margin: auto;
+    margin-top: 8px;
+  }
 /* This section homes the actual 'strip card' of services */
   .services{
     width: 600px;
@@ -48,11 +53,13 @@
   }
 
   .serviceImage{
-    height: 175px;
-    width: 30%;
+    height: 200px;
+    width: 35%;
     float: left;
+    margin-right: 20px;
   }
 
+  
 /* place of the find and book buttons - I am using the button container class atm, this should be redundant and will delete.
   .find,.book{
     display: flex;
@@ -69,6 +76,7 @@
     margin-right: 2ch; 
     bottom:0;
     right:0;
+    margin-bottom: 10px;
   } 
 
   /* This  is for styling all the find buttons. mutliple class used, because of the find feature in relation to the SVG map. */
@@ -104,9 +112,9 @@
   }
 
   .highlighted {
-    stroke: red;
-    stroke-width: 6;
-    fill: yellow;
+    stroke: blue;
+    stroke-width: 5;
+    fill: lightblue;
   }
 
 /*  this was a test before I made the above admentments
