@@ -22,6 +22,7 @@ header {
     position: relative;
     margin-right: 38.5px;
     margin-left: 38.5px;
+    margin-top: 38.5px;
   }
 
   svg path:hover{
@@ -52,13 +53,21 @@ header {
     float: left;
   }
 
-/* place of the find and book buttons */
+/* place of the find and book buttons 
   .find,.book{
     display: flex;
     float: right;
     position:relative; 
     margin-right: 2ch; 
-  }
+  } 
+  */
+
+  .buttonContainer{
+    display: flex;
+    float: right;
+    position:relative; 
+    margin-right: 2ch; 
+  } 
 
   .highlighted {
     stroke: red;
@@ -66,6 +75,10 @@ header {
     fill: yellow;
   }
 
+  a:hover, a:active, a:visited,a:focus {
+  color: green;
+  text-decoration: none;
+  }
 /*  this was a test before I made the above admentments
 
     .find{
