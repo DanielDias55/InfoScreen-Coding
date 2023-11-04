@@ -13,168 +13,211 @@
 <body>
   <header>
     <h2>Events</h2>
-    <a href="map.html"><h2>Map</h2></a>
-    <a href="info.html"><h2>Info</h2></a>
+    <a href="map.html">
+      <h2>Map</h2>
+    </a>
+    <a href="info.html">
+      <h2>Info</h2>
+    </a>
   </header>
-  
-  
+
+
   <div class="monthsandevents">
-   <div class="months">
-     <img class="arrow" src="images/arrow.png" alt="arrow">December<img class="otherarrow" src="images/arrow.png" alt="otherarrow">
-   </div>
-   <div class = "createevent">
-    Create an Event <img class="plus" src="images/plus.png" alt ="plus">
-   </div>
+    <div class="months">
+      <img class="arrow" src="images/arrow.png" alt="arrow">December<img class="otherarrow" src="images/arrow.png"
+        alt="otherarrow">
+    </div>
+    <div class="createevent">
+      Create an Event <img class="plus" src="images/plus.png" alt="plus">
+    </div>
   </div>
- 
-<!-- Article Totality -->
-<div class = "articles">
-  
-  <!-- Article 1/ Box 1-->
-  <article>
-    <img src="images/image.png">
+
+  <!-- Article Totality -->
+  <div class="articles">
+
+    <!-- Article 1/ Box 1-->
+    <article>
+      <div class="flip-box">
+        <div class="flip-box-inner flipped">
+          <div class="flip-box-front">
 
 
-    <div class="eventnameanddate">
-      <div class="eventtitle">
-        <h3>Harvest Fest </h3>
-      </div>
-      <div class="eventdate">
-        16 Sep <br>
-        08:00 PM
-      </div>
-    </div>
-    <hr>
+            <img src="images/image.png">
 
 
-    <div class="costandpeople">
-      <div class="cost">
-        Price: <b>Free</b>
-      </div>
-      <div class="people">
-        <span id="attendancecount">45</span>
-        <img class="peopleimage" src="images/people.png" alt="people attendance">
-      </div>
-    </div>
-
-    <div class="learnmoreandjoin">
-      <div class="learnmore">
-        <p>Learn More</p>
-      </div>
-      <div class="join">
-        <p><button id="join" onclick="myFunction()"> Join <img class="emptycheckmark" src="images/emptycheckmark.png" alt="empty check mark"> </button></p>
-      </div>
-    </div>
-  </article>
-  
-  <!-- Article 2/Box 2 -->
-  <article>
-    <img src="images/image 2.png">
-
-    <div class="eventnameanddate">
-      <div class="eventtitle">
-        <h3> Liberty Party </h3>
-      </div>
-      <div class="eventdate">
-        31 Oct <br>
-        10:00 PM
-      </div>
-    </div>
-    <hr>
+            <div class="eventnameanddate">
+              <div class="eventtitle">
+                <h3>Harvest Fest </h3>
+              </div>
+              <div class="eventdate">
+                01 Dec <br>
+                08:00 PM
+              </div>
+            </div>
+            <hr>
 
 
-    <div class="costandpeople">
-      <div class="cost">
-        Price: <b>Free</b>
-      </div>
-      <div class="people">
-        <span id="attendancecount2"></span>
-       <img class="peopleimage" src="images/people.png" alt="people attendance">
-      </div>
-    </div>
+            <div class="costandpeople">
+              <div class="cost">
+                Price: <b>Free</b>
+              </div>
+              <div class="people">
+                <span id="attendancecount">45</span>
+                <img class="peopleimage" src="images/people.png" alt="people attendance">
+              </div>
+            </div>
+            <div class="learnmoreandjoin">
+              <div class="learnmore">
+                <p><button id="learnmore" onclick="myFunction5(1)">Learn More</button></p>
+              </div>
+              <div class="join">
+                <p><button id="join" onclick="myFunction()"> Join <img class="emptycheckmark"
+                      src="images/emptycheckmark.png" alt="empty check mark"> </button></p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-box-back">
+            <button id="cardback" onclick="myFunction5(1)"><img class="cardbackarrow" src="images/eventarrow.svg"
+                alt="cardbackarrow"></button>
+            <div class="eventtitleback">
+              <h3>Harvest Fest</h3>
+            </div>
+            <div class="eventdateback"> 1 Dec <br> 08:00 PM</div>
+            <div class="title"><b>Description:</b></div>
+            <div class="description">
+              <p>• Themed dorm costume party with inventive cocktails, where students combine academic curiosity with
+                creative costumes for an unforgettable night. </p>
+              <p>• For each tenant there is only one entrance ticket for their friend.</p>
+              <p>• Happy hour starts at 8:00 pm.</p>
+              </p>
+            </div>
+            <hr class="backline">
+            <div class="bottomback">
+              <div class="costback">Price: <b>Free</b></div>
+              <div class="peopleback">
+                <span id="attendancecountback">45</span>
+                <img class="peopleimageback" src="images/people.png" alt="people attendanceback">
+              </div>
+            </div>
+          </div>
 
-    <div class="learnmoreandjoin">
-      <div class="learnmore">
-        <p> Learn More </p>
+        </div>
       </div>
-      <div class="join2">
-        <p><button id="join2" onclick="myFunction2()"> Join <img class="emptycheckmark" src="images/emptycheckmark.png" alt="empty check mark"> </button></p>
-      </div>
-    </div>
-  </article>
-  
-  <!-- Article 3/Box 3-->
-  <article>
-    <img src="images/image 3.png">
-
-    <div class="eventnameanddate">
-      <div class="eventtitle">
-        <h3> Christmas Party </h3>
-      </div>
-      <div class="eventdate">
-        22 Dec <br>
-        09:00 PM
-      </div>
-    </div>
-    <hr>
-
-
-    <div class="costandpeople">
-      <div class="cost">
-        Price: <b>20 Kr</b>
-      </div>
-      <div class="people">
-        <span id="attendancecount3">69</span>
-        <img class="peopleimage" src="images/people.png" alt="people attendance">
-      </div>
-    </div>
-
-    <div class="learnmoreandjoin">
-      <div class="learnmore">
-        <p> Learn More </p>
-      </div>
-      <div class="join3">
-        <p><button id="join3" onclick="myFunction3()"> Join <img class="emptycheckmark" src="images/emptycheckmark.png" alt="empty check mark"> </button></p>
-      </div>
-    </div>
-  </article>
-  
-  <!-- Article 4/Box 4-->
-  <article>
-    <img src="images/image 4.png">
-
-    <div class="eventnameanddate">
-      <div class="eventtitle">
-        <h3> New Years' Eve </h3>
-      </div>
-      <div class="eventdate">
-        21 Jan <br>
-        06:00 PM
-      </div>
-    </div>
-    <hr>
+    </article>
 
 
-    <div class="costandpeople">
-      <div class="cost">
-        Price: <b>Free</b>
-      </div>
-      <div class="people">
-      <span id="attendancecount4">21</span>
-      <img class="peopleimage" src="images/people.png" alt="people attendance">
-      </div>
-    </div>
+    <!-- Article 2/Box 2 -->
+    <article>
 
-    <div class="learnmoreandjoin">
-      <div class="learnmore">
-        <p> Learn More </p>
+      <img src="images/image 2.png">
+
+      <div class="eventnameanddate">
+        <div class="eventtitle">
+          <h3> Liberty Party </h3>
+        </div>
+        <div class="eventdate">
+          07 Dec <br>
+          10:00 PM
+        </div>
       </div>
-      <div class="join4">
-        <p><button id="join4" onclick="myFunction4()"> Join <img class="emptycheckmark" src="images/emptycheckmark.png" alt="empty check mark"> </button></p>
+      <hr>
+
+
+      <div class="costandpeople">
+        <div class="cost">
+          Price: <b>Free</b>
+        </div>
+        <div class="people">
+          <span id="attendancecount2"></span>
+          <img class="peopleimage" src="images/people.png" alt="people attendance">
+        </div>
       </div>
-    </div>
-  </article>
-</div>
+
+      <div class="learnmoreandjoin">
+        <div class="learnmore">
+          <p><button id="learnmore" onclick="myFunction5(2)">Learn More</button></p>
+        </div>
+        <div class="join2">
+          <p><button id="join2" onclick="myFunction2()"> Join <img class="emptycheckmark"
+                src="images/emptycheckmark.png" alt="empty check mark"> </button></p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Article 3/Box 3-->
+    <article>
+      <img src="images/image 3.png">
+
+      <div class="eventnameanddate">
+        <div class="eventtitle">
+          <h3> Christmas Party </h3>
+        </div>
+        <div class="eventdate">
+          20 Dec <br>
+          09:00 PM
+        </div>
+      </div>
+      <hr>
+
+
+      <div class="costandpeople">
+        <div class="cost">
+          Price: <b>20 Kr</b>
+        </div>
+        <div class="people">
+          <span id="attendancecount3">69</span>
+          <img class="peopleimage" src="images/people.png" alt="people attendance">
+        </div>
+      </div>
+
+      <div class="learnmoreandjoin">
+        <div class="learnmore">
+          <p><button id="learnmore" onclick="myFunction5(3)">Learn More</button></p>
+        </div>
+        <div class="join3">
+          <p><button id="join3" onclick="myFunction3()"> Join <img class="emptycheckmark"
+                src="images/emptycheckmark.png" alt="empty check mark"> </button></p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Article 4/Box 4-->
+    <article>
+      <img src="images/image 4.png">
+
+      <div class="eventnameanddate">
+        <div class="eventtitle">
+          <h3> New Years' Eve </h3>
+        </div>
+        <div class="eventdate">
+          31 Dec <br>
+          06:00 PM
+        </div>
+      </div>
+      <hr>
+
+
+      <div class="costandpeople">
+        <div class="cost">
+          Price: <b>Free</b>
+        </div>
+        <div class="people">
+          <span id="attendancecount4">21</span>
+          <img class="peopleimage" src="images/people.png" alt="people attendance">
+        </div>
+      </div>
+
+      <div class="learnmoreandjoin">
+        <div class="learnmore">
+          <p><button id="learnmore" onclick="myFunction5(4)">Learn More</button></p>
+        </div>
+        <div class="join4">
+          <p><button id="join4" onclick="myFunction4()"> Join <img class="emptycheckmark"
+                src="images/emptycheckmark.png" alt="empty check mark"> </button></p>
+        </div>
+      </div>
+    </article>
+  </div>
 
 
   <script src="js/js.js"></script>

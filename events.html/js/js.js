@@ -8,6 +8,10 @@ console.log('Success: JavaScript from js/js.js running!')
 //Article 1
 document.addEventListener("DOMContentLoaded", function() {
 
+const flippedElements = document.querySelectorAll(".flip-box-inner.flipped");
+flippedElements.forEach(function(element) {
+    element.classList.remove("flipped");
+});
 //Get the elements by their ID's
 const attendancecount = document.getElementById("attendancecount");
 const join = document.getElementById("join");
@@ -127,4 +131,12 @@ function myFunction4(){
     } else {
         x.innerHTML = "Joined" + '<img class="fullcheckmark" src="images/fullcheckmark.png" alt="fullcheckmark">';
     }
+}
+
+
+{
+function myFunction5(articleIndex) {
+    const flipBoxParent = document.querySelectorAll(".flip-box")[articleIndex - 1];
+    flipBoxParent.querySelector(".flip-box-inner").classList.toggle("flipped");
     }
+}
