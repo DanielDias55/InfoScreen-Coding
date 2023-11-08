@@ -1,3 +1,4 @@
+// This is for the highlighting of the SVG Map.
 const buttons = document.querySelectorAll('.find');
 
 buttons.forEach(button => {
