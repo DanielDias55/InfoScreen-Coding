@@ -74,7 +74,7 @@ h2 {
   display: flex;
   background-color: #2D2D2D;
   color: white;
-  padding: 8px;
+  padding: 18px;
   margin-bottom: 10px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -84,9 +84,8 @@ h2 {
   display: flex;
   background-color: #2D2D2D;
   color: rgb(255, 255, 255);
-  padding: 14px;
+  padding:18px;
   margin-bottom: 10px;
-
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
