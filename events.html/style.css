@@ -25,12 +25,15 @@ header {
   justify-content: space-between;
   height: 65px; 
   line-height: 65px;
-  padding-bottom: 40px;
+  padding: 0; 
+  margin top:0px;
 }
 h2 {
   font-size: 36px;
   padding-left: 56px;
   padding-right: 56px;
+  margin: 0px;
+  padding-top: 0px;
 }
 
 
@@ -39,7 +42,7 @@ h2 {
 }
 
 .container1 {
-  margin-top:3%;
+  
   width: 36%;
   display: inline-block;
   vertical-align: middle;
@@ -51,7 +54,7 @@ h2 {
 }
 
 .container2 {
-  margin-top: 3%;
+  
   margin-left: 6%;
   width: 36%;
   display: inline-block;
@@ -97,7 +100,6 @@ h2 {
 }
 
 .qna {
-
   display: flex;
   flex-direction: column;
   gap: 10px;
