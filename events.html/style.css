@@ -6,7 +6,7 @@ body {
 
 }
 
-
+/* 
 header {
   background-color: #FFFFFF;
   display: flex;
@@ -17,18 +17,32 @@ header {
   padding-left: 5%;
   padding-right: 5%;
   width: 90%;
+} */
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  height: 65px; 
+  line-height: 65px;
+  padding: 0; 
+  margin top:0px;
+}
+h2 {
+  font-size: 36px;
+  padding-left: 56px;
+  padding-right: 56px;
+  margin: 0px;
+  padding-top: 0px;
 }
 
-header h2:nth-of-type(3) {
-  text-decoration: underline; 
-}
 
 .containers {
   display: flex;
 }
 
 .container1 {
-  margin-top: 3%;
+  
   width: 36%;
   display: inline-block;
   vertical-align: middle;
@@ -40,7 +54,7 @@ header h2:nth-of-type(3) {
 }
 
 .container2 {
-  margin-top: 3%;
+  
   margin-left: 6%;
   width: 36%;
   display: inline-block;
@@ -60,7 +74,7 @@ header h2:nth-of-type(3) {
   display: flex;
   background-color: #2D2D2D;
   color: white;
-  padding: 8px;
+  padding: 17px;
   margin-bottom: 10px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -68,11 +82,12 @@ header h2:nth-of-type(3) {
 
 .faq_title {
   display: flex;
+  justify-content: space-between;
   background-color: #2D2D2D;
   color: rgb(255, 255, 255);
-  padding: 14px;
-  margin-bottom: 10px;
-
+  padding-bottom: 38px;
+  padding-top:34px;
+  margin-bottom: 34px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -86,7 +101,6 @@ header h2:nth-of-type(3) {
 }
 
 .qna {
-
   display: flex;
   flex-direction: column;
   gap: 10px;
