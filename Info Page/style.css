@@ -9,16 +9,18 @@ body {
 
 
   header {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
-    height: 50px; 
-    align-items: center;
-    line-height: 50px;
-    padding-left: 5%;
-    padding-right: 5%;
-    width:90%;
-}
+    height: 65px; 
+    line-height: 65px;
+    padding-bottom: 40px;
+  }
+  h2 {
+    font-size: 36px;
+    padding-left: 56px;
+    padding-right: 56px;
+  }
 
 
 
